@@ -5,40 +5,34 @@ Se aplicó la metodología **BEM CSS** con el objetivo de dar mucha más transpa
 
 BEM son tres siglas.
 
--**B** de bloque.
--**E** de elemento.
--**M** de modificador.
+- **B** de bloque.
+- **E** de elemento.
+- **M** de modificador.
 
 Un **bloque** es una sección independiente que tiene significado propio por sí solo.
 Contiene todos los nodos HTML de una estructura a la que te estés refiriendo. 
 
-*HTML*
 ```html
 <div class=“cliente”>...</div>
 ```
-*CSS*
 ```css
 .cliente {....}
 ```
 
 Un **elemento** es parte de un bloque. Se usa para ir dividiendo el bloque en segmentos más pequeños.
 
-*HTML*
 ```html
 <p class=“cliente__nombre”>...</p>
 ```
-*CSS*
 ```css
 .cliente__nombre {....}
 ```
 
 Un **modificador** sirve para modificar algunas propiedades de un bloque o elemento.
 
-*HTML*
 ```html
 <p class=“cliente__nombre--ceo”>...</p>
 ```
-*CSS*
 ```css
 .cliente__nombre--ceo {....}
 ```
